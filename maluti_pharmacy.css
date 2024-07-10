@@ -1,0 +1,211 @@
+/*footer*/
+.l1 {
+	list-style-image:url('phone.jpg');
+}
+.l2 {
+	list-style-image:url('Gmail.png');
+}
+.l3 {
+	list-style-image:url('facebook.jpg');
+}
+.l4 {
+	list-style-image:url('instagram.jpg');
+}
+.l5 {
+	list-style-image:url('twitter.jpg');
+}
+.A30{
+	color:green
+}
+/*list 2*/
+.list2 li {
+	list-style-type:none;
+	margin-bottom:50px;
+}
+footer hr {
+   border: none;
+   border-top: 2px solid #B4CFEC;
+}
+footer p {
+	text-align: center;
+}
+footer a {
+	text-decoration:none;
+	color:black;
+}
+footer {
+	height: 30%;
+	bottom:0;
+	background-color: #E8DED1;
+	color:black;
+
+}
+footer.45 {
+	font-weight:bold;
+	
+}
+footer a:hover {
+	background-color:aqua;
+}
+
+/*end of footer*/
+/*header*/
+header h1.header {
+	font-family:cursive;
+	letter-spacing:2px;
+}
+header {
+	height:20%;
+	width:100%;
+	
+}
+/*nav*/
+nav {
+	height:20%;
+	width:100%;
+	position:relative;
+	top:80%;
+	background:#99EDC3;
+}
+nav ul {
+	list-style:none;
+	padding: 0;
+	margin: 0;
+	
+}
+nav ul li {
+	display:inline-block;
+	position: relative;
+	background:#99EDC3;
+	margin-right:90px;
+	
+}
+nav ul li ul {
+	display:none;
+}
+nav li a {
+	display:block;
+	padding:11.5px;
+	text-decoration:none;
+	color:black;
+}
+nav li a:hover {
+	background-color:white;
+}
+nav li:hover > ul {
+	display:block;
+	position:absolute;
+}
+nav li:hover li {
+	float:none;
+}
+/*END OF NAV*/
+/****************ABOUT US PAGE**************************/
+aside {
+	height:80%;
+	width:10%;
+	background-color:#99EDC3;
+	float:right;
+	padding:20px;
+	
+}
+.button {
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+.button li {
+	display:block;
+	margin-bottom:170px;
+}
+.button li a {
+	display:block;
+	color:black;
+	text-decoration:none;
+	padding:5px 10px;
+	border:1px solid grey;
+}
+.button li a:hover {
+	background-color:white;
+}
+.sub {
+	display:none;
+	list-style:none;
+	padding:0;
+	margin:0;
+	top:100%;
+	
+}
+.button li:hover .sub {
+	display:block;
+}
+.header2 {
+	height:20%;
+	width:100%;
+	background-color: #99EDC3;
+	font-family:cursive;
+}
+.P:first-letter {
+	font-weight:bold;
+	font-family:cursive;
+	font-size:30px;
+}
+.h1 {
+	color:red;
+	font-family:monospace;
+}
+
+/***End of about us***/
+.portal {
+	background-color:#E8DED1;
+}
+/********************/
+.field input {
+	width:300px;
+	height:50px;
+	border-radius:10px;
+	margin-bottom:15px;
+	margin-top:20px;
+	border:none solid #99EDC3;
+	background-color:transparent;
+	
+}
+div {
+	text-align:center;
+}
+.field {
+	border-radius:10px;
+	background-color:transparent;
+	color:black;
+	text-align:center;
+	
+}
+.p23 {
+	text-align:center;
+	font-weight:bold;
+	font-family:italics;
+}
+.img_login {
+	width:80px;
+	height:80px;
+}
+ button{
+	background-color:transparent;
+	width:1280px;
+	height:70px;
+	border-radius:10px;
+	margin-bottom:5px;
+	margin-top:10px;
+	border:none solid #99EDC3;
+	text-align:left;
+}
+button:hover {
+	background-color:white;
+}
+.copy {
+	text-align:center;
+}
+
+h4 {
+	text-align:center;
+}
